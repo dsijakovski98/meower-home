@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+}
+
+.mew-form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.submit-mew {
+  font-size: 1.2rem;
+}
+
+.loading {
+  text-align: center;
+}
+
+.mews {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.mews::before {
+  content: "Mews";
+  font-size: 4.5rem;
+}
+
+.mew {
+  margin-bottom: 3em;
+  padding-left: 1em;
+  border-left: 6px solid #1eaedb;
+  transition: all 0.3s ease;
+}
+
+.mew:hover {
+  border-left-color: #09799b;
+  cursor: pointer;
+}
+
+/* .mew h3 {
+}
+
+.mew p {
+} */
